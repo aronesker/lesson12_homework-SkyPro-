@@ -15,4 +15,5 @@ app.register_blueprint(loader_blueprint)
 def static_dir(path):
     return send_from_directory("uploads", path)
 
+
 app.run()

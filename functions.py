@@ -46,7 +46,7 @@ class PostsHandler:
         """
         try:
             with open(self.path, 'w', encoding="utf-8") as f:
-                json.dump(posts, f)
+                json.dump(posts, f, ensure_ascii=False)
         except FileNotFoundError:
             raise DataLayerError
 
@@ -56,8 +56,8 @@ def save_uploaded_picture(picture):
 
     file_type = filename.split('.')[-1]
 
-    if file_type not in ['j0pg', 'jpeg', 'png']:
+    if file_type not in ['jpg', 'jpeg', 'png']:
         raise PictureWrongTypeError
 
     picture.save(f"uploads/images/{filename}")
-    return filename
+    return f"uploads/images/{filename}"

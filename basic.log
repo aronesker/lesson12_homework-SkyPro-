@@ -24,3 +24,71 @@ INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 20:42:48] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 20:42:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 20:42:49] "GET /post HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 20:42:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:38:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:38:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:38:50] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:38:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Неверный формат файла
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:39:14] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:39:56] "GET /post HTTP/1.1" 200 -
+INFO:root:Неверный формат файла
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:39:57] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:02] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:03] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:03] "[33mGET /1.%20Черный%20кот%20с%20рыбкой.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:15] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск выполнен
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:54] "GET /search?s=PC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:54] "[33mGET /1.%20Черный%20кот%20с%20рыбкой.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:40:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:42:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:42:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Поиск выполнен
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:27] "GET /search?s=PC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:27] "[33mGET /1.%20Черный%20кот%20с%20рыбкой.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск выполнен
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:27] "GET /search?s=PC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:27] "[33mGET /1.%20Черный%20кот%20с%20рыбкой.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск выполнен
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:28] "GET /search?s=PC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:28] "[33mGET /1.%20Черный%20кот%20с%20рыбкой.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск выполнен
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:29] "GET /search?s=PC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:29] "[33mGET /1.%20Черный%20кот%20с%20рыбкой.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:44:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:45:58] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:45:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:46:14] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:46:14] "[33mGET /1.%20Черный%20кот%20с%20рыбкой.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:46:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:46:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:46:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск выполнен
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:46:23] "GET /search?s=cat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:46:23] "[33mGET /1.%20Черный%20кот%20с%20рыбкой.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:46:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:47:42] "GET /uploads/images/cat.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:47:59] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:47:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:48:07] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:48:07] "[33mGET /cat%20and%20fish.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:48:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:48:26] "[33mGET /uploads/images/cat%20and%20fish.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:48:45] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:48:49] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:48:49] "[33mGET /cat_and_fish.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:48:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:53:09] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:53:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2022 22:53:09] "GET /uploads/images/cat_and_fish.jpg HTTP/1.1" 200 -
