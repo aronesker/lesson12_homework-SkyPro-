@@ -40,8 +40,8 @@ def create_post_from_data():
     post_object = {"pic": picture_url, "content": content}
 
     try:
-        posts_handler.add_post(post_object)
+        posts_handler.add_new_post(post_object)
     except DataLayerError:
         return "Не удалось добавить пост"
 
-    return render_template("post_upload.html", picture_url=picture_url, content=content)
+    return render_template("post_uploaded.html", picture_url=picture_url, content=content)

@@ -60,3 +60,4 @@ def save_uploaded_picture(picture):
         raise PictureWrongTypeError
 
     picture.save(f"uploads/images/{filename}")
+    return filename
